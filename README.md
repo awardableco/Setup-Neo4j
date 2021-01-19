@@ -1,14 +1,15 @@
-# Neo4j GitHub Action
+# Neo4j GitHub Action with APOC
 
-Github action to setup a neo4j database.
+This is a github action to setup a neo4j database loaded with APOC intended to be used for tests.
 
-Inspired by [https://github.com/nijel/rabbitmq-action](https://github.com/nijel/rabbitmq-action)
+This is a fork of https://github.com/Baptouuuu/Setup-Neo4j, with the addition of APOC to the setup.
+
+No authentication is required. 
 
 ## Usage
 
 ```yml
 steps:
-  - uses: baptouuuu/setup-neo4j@v1.0.0
-    with:
-      tag: '3.4'
+  - name: Setup Neo4j with APOC
+    uses: mdanics/Setup-Neo4j@1.02
 ```
