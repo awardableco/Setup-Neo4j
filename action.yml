@@ -1,5 +1,5 @@
 name: 'Setup Neo4j with APOC for testing'
-description: 'Setup Neo4j with APOC for testing'
+description: 'Setup Neo4j with APOC'
 branding:
   icon: 'database'
   color: 'green'
@@ -8,10 +8,6 @@ inputs:
     description: 'Version of Neo4j to use'
     required: false
     default: 'latest'
-  password:
-    description: 'The new password for the neo4j user'
-    required: false
-    default: 'ci'
 runs:
   using: 'docker'
   image: 'Dockerfile'
