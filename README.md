@@ -11,5 +11,5 @@ No authentication is required.
 ```yml
 steps:
   - name: Setup Neo4j with APOC
-    uses: mdanics/Setup-Neo4j@1.0.0
+    uses: awardableco/Setup-Neo4j@1.0.0
 ```
